@@ -1,0 +1,39 @@
+.system {
+    background-color: var(--bg-color);
+} 
+.system-container {
+    display: flex;
+    align-items: center;
+    gap: 8.125rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5.375rem;
+}
+
+.system-content p{
+    max-width: 500px;
+    padding-bottom: 1.875rem;
+    color: var(--text-color);
+}
+.system-content {
+    max-width: 570px;
+    vertical-align: middle;
+
+}
+
+.system-item {
+    display: flex;
+    /* align-items: center; */
+    gap: 1.875rem;
+    padding-top: 1rem;
+
+
+}
+.system-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    padding-bottom: 1.25rem;
+    
+
+
+}

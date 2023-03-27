@@ -1,0 +1,19 @@
+/* .header {
+  padding:  var(--container-padding);
+} */
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+    position: relative
+  }
+  
+  .container-fluid {
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+  }
+  .navbar-container {
+    /* position: absolute; */
+    width: 100%;
+  }
+  

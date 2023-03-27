@@ -1,0 +1,29 @@
+.shadow {
+    --shadow-bg: #0d1025;
+    --shadow-opacity: 0.06;
+    --shadow-top-offset: 2.5rem;
+    --shadow-blur: 3.5rem;
+    position: relative;
+  }
+  
+  .shadow::after {
+    content: "";
+    position: absolute;
+    top: var(--shadow-top-offset);
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 85%;
+    background-color: var(--shadow-bg);
+    border-radius: inherit;
+    filter: blur(var(--shadow-blur));
+    opacity: var(--shadow-opacity);
+  }
+  
+  .shadow.shadow-btn {
+    --shadow-bg: #7D7777;
+    --shadow-opacity: 1;
+    --shadow-top-offset: 1.25rem;
+    --shadow-blur: 1.75rem;
+  }

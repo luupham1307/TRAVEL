@@ -1,0 +1,15 @@
+.help-container{
+    padding: 9.375rem;
+    color:var(--bg-color) ;
+
+
+}
+.help-content {
+    padding: 7rem 12.5rem;
+    background-color: #1C2241;
+}
+.help-heading {
+    color:var(--bg-color) ;
+
+    
+}

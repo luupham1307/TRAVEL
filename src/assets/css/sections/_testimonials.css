@@ -1,0 +1,29 @@
+
+.testimonials-container {
+    display: flex;
+    gap:5rem;
+    align-items: center;
+    padding-bottom: 9.125rem;
+}
+.testimonials-bg {
+    background-color: var(--img-color);
+}
+/* .testimonials-img {
+    po
+}zp */
+.testimonials-content {
+    max-width: 570px;
+    vertical-align: middle;
+
+}
+
+.testimonials-content p{
+    color: var(--text-color);
+} 
+.testimonials-text {
+    padding-bottom: 1.5rem;
+}
+.testimonials-icon .icons-item {
+    padding-top: 0.875rem;
+
+}

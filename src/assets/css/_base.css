@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ img,
+iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+} 
+
+a {
+  display: block;
+  text-decoration: none;
+  /* color: inherit; */
+  color: #80808C
+
+}
+a > .font-bold2 {
+    color: var(--heading-color);
+}
+
+ul {
+    list-style: none;
+  }
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+input,
+button {
+  display: block;
+  font: inherit;
+  border: 0;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+} 
+
+body .brand{
+  font-family: var(--nav-ff);
+  font-size: 1.25
+  /* font-weight: 700;
+  line-height: 1.875; */
+}
+
+
+body .nav-item,.navbar-action  {
+font-family: var(--nav-link-ff);
+font-weight: 300;
+}
+
+body  > .nav-item .font-bold2 ,.navbar-action {
+    font-weight: 600;
+
+}
+
+
+body {
+font-family:var(--body-ff);
+font-size: var(--fs-base);
+font-weight: 400;
+line-height: var(--lh-base);
+color: var(--body-color);
+background-color: #F5F5F5;
+
+}
+main {
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+.navbar, .header {
+background-color: var(--bg-color);
+}
+
+/* .features .services .destination .testimonials {
+  background-color: #F9F9F9
+}  */

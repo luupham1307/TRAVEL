@@ -1,0 +1,41 @@
+:root {
+    /* color */
+--primary-color:#FD5056;
+--heading-color: #29293E;
+--body-color: #2B2B40;
+--bg-color: #fff;
+--img-color: #2BD7F9;
+--text-color:#80808C;
+
+--icon-color: #FA9443;
+
+/* Typography */
+--heading-ff: 'Inter', sans-serif;;
+--body-ff: 'Inter', sans-serif;;
+--nav-ff: 'Inika', serif;
+--nav-link-ff: 'Poppins', sans-serif;
+
+
+--fs-base: 1rem;
+--lh-base: calc(24 / 16);
+
+  /* Border radius */
+  --rounded: 0.625rem;
+  --rounded-lg: 0.9rem;
+  --rounded-full: 9999px;
+
+  /* Border */
+  --border: 2px solid #ddd;
+
+  /* Container */
+  --container-padding: 1.875rem;
+
+  /* Layout */
+  --column-gap: 1.875rem;
+  
+
+  /* Transition */
+  --transition: all 0.3s ease;
+
+
+}
