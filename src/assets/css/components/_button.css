@@ -5,8 +5,9 @@
     width: 100%;
     max-width: 10.625rem;
     border-radius: var(--rounded-lg);
-    border: 1px solid var(--bg-color);
+    border: 1px solid var(--primary-color);
     text-align: center;
+    /* margin: 0 auto; */
   }
 
  
