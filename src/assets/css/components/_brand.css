@@ -10,11 +10,9 @@
     height: 1.8rem;
     transition: var(--transition);
   }
-  
   .brand-title {
     font-size: 1.25rem;
     line-height: 1.8;
     color: var(--heading-color);
     font-weight: 700;
-    /* font-family: var(----nav-ff); */
   }

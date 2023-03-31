@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 4.375rem;
-
 }
 
 .destination-header {
@@ -42,8 +41,6 @@
 .destination-img {
     display: flex;
     gap: 1.875rem;
-    /* max-width: 370px; */
-    /* width: 100%; */
 }
 .destination-img-content {
     max-width: 370px;
@@ -57,13 +54,10 @@
     padding-bottom: 0.88rem;
     max-width: 370px;
 }
-
-
 .destination-icon-item{
     display: flex;
     gap: 0.3rem;
     align-items: center;
-
 }
 .destination-icon-item span {
     color: #2BD7F9;

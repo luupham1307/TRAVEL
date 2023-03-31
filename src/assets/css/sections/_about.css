@@ -1,36 +1,20 @@
 
   .about {
-    /* position: absolute; */
-    /* width: 80%; */
     bottom: 20px;
     background-color: var(--bg-color);
-  /* width: 65%; */
-  /* transform: translateY(-70%); */
-  /* z-index: 1; */
-  /* top: 50px */
-
   }
   .about-container{
     display: inline-flex;
     width: 55%;
-    /* max-width: 60%; */
     position: relative;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
-
-    /* z-index: 1; */
     bottom: 6rem;
-    /* justify-content: space-around; */
     padding: 1.5rem 0;
     padding-bottom: 2rem;
-    /* margin-right: 2rem; */
     background-color: var(--bg-color);
     border-radius: 15px;
-    /* justify-content: space-around; */
-    /* display: flex; */
-    /* justify-content: space-between; */
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
 
   }
@@ -40,97 +24,59 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* flex-grow: 1; */
 
 }
-  /* .about-items {
-    width: 100%;
-    flex-grow: 1;
-  } */
-
   .about-btn {
     margin-left: 2rem;
-
-  }
-  
-  .about-container.shadow {
-    /* border-radius: 1rem; */
-
-  }
-  
-  
+  }  
   .about-location-content{
     gap: 1rem
   }
-  .about-item:first-child .about-box {
-    /* --border: 1px solid #7D7777;
-    border-right: var(--border); */
-  }
-
 
   .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2.25rem;
-    /* margin-right: -1; */
-    /* top: 50px; */
-    /* padding: 1.18rem 3.43rem; */
   }
   .about-icon{
     display: flex;
     align-items: center;
-    /* gap: 1rem */
-    
-
   }
   .about-text {
     display: flex;
-
-    /* flex-direction: column; */
-    /* gap: 0.375rem; */
-    /* gap: 1rem; */
     justify-content: center;
     align-items: center;
-    /* margin-left: 0; */
   }
 
   .about-location-icon{
     display: flex;
     gap: 0.2rem
-
   }
 
   .header-flex {
     position: relative;
   }
-
   .about .icon {
     font-size: 1.2rem;
-
   }
 
   .about-box {
     display: flex;
     justify-content: center;
-  flex-grow: 1;
-
+    flex-grow: 1;
   }
 
   .icon-boder {
     padding-top: 0;
     padding-bottom: 0;
     border-left: 1px solid #7D7777;
-    /* --border: 1px solid #7D7777; */
-    /* border-left: var(--border); */
-
   }
   @media (max-width: 1024px) {
     .about-content {
       flex-direction: column;
       gap: 0.5rem;
     }
-  
     .about-text {
       flex-direction: row;
       gap: 0.5rem;
@@ -151,11 +97,4 @@
       margin-top:1rem ;
     }
 
-
   }
-  /* @media (max-width: 640px) {
-    .about2 {
-      flex-wrap: wrap;
-
-    }
-  } */

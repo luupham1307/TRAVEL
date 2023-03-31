@@ -10,20 +10,14 @@
   .icon-sm {
     --icon-size: 1rem;
   }
-  
- 
   .icon-lg {
     --icon-size: 2rem;
   }
-  
   .icon-wrapper {
     --wrapper-padding: 1rem;
-    /* --wrapper-bg: #ffecec; */
     display: inline-block;
     color: var(--icon-color);
     padding: var(--wrapper-padding);
-    /* border-radius: var(--rounded-full); */
-    /* background-color: var(--wrapper-bg); */
   }
   
   .icon-wrapper-sm {

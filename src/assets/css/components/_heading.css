@@ -4,8 +4,6 @@ h4,
 h6 {
   font-family: var(--heading-ff);
   color: var(--heading-color);
-  /* font-weight: 500; */
-
 }
 
 h1 {
@@ -48,7 +46,6 @@ h1 {
   }
   p{
     font-weight: 350;
-    /* color: #80808C; */
   }
   
   @media (max-width: 1024px) {

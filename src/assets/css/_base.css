@@ -5,25 +5,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-
  img,
 iframe {
   display: block;
   width: 100%;
   height: auto;
 } 
-
 a {
   display: block;
   text-decoration: none;
-  /* color: inherit; */
   color: #80808C
-
 }
 a > .font-bold2 {
     color: var(--heading-color);
 }
-
 ul {
     list-style: none;
   }
@@ -48,8 +43,6 @@ html {
 body .brand{
   font-family: var(--nav-ff);
   font-size: 1.25
-  /* font-weight: 700;
-  line-height: 1.875; */
 }
 
 
@@ -62,7 +55,6 @@ body  > .nav-item .font-bold2 ,.navbar-action {
     font-weight: 600;
 
 }
-
 
 body {
 font-family:var(--body-ff);
@@ -81,7 +73,3 @@ main {
 .navbar, .header {
 background-color: var(--bg-color);
 }
-
-/* .features .services .destination .testimonials {
-  background-color: #F9F9F9
-}  */

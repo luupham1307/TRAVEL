@@ -5,7 +5,6 @@
     gap: var(--column-gap);
     padding: 9.375rem 0;
     align-items: center;
-    /* justify-items: end; */
   }
   
   .feature-content {
@@ -14,17 +13,14 @@
   
   .feature-heading {
     margin-bottom: 1.25rem;
-    /* max-width: 470px; */
   }
   .feature-content p {
     max-width: 460px;
     color: #80808C;
-    /* padding-bottom: 2.625rem; */
   }
   
   .feature-list {
     display: flex;
-    /* flex-direction: column; */
     gap: 3rem;
   }
   .feature-list-content {

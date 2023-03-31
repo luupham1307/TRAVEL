@@ -8,15 +8,10 @@
 .testimonials-bg {
     background-color: var(--img-color);
 }
-/* .testimonials-img {
-    po
-}zp */
 .testimonials-content {
     max-width: 570px;
     vertical-align: middle;
-
 }
-
 .testimonials-content p{
     color: var(--text-color);
 } 
