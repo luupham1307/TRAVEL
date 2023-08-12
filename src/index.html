@@ -22,11 +22,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
 
     <title>Travel</title>
 </head>
 
 <body>
+    <div>
+        <label>Change language:</label>
+        <select id="langSelector" name="lang">
+            <option value="en">English</option>
+            <option value="vi">Việt nam</option>
+        </select>
+    </div>
     <!-- nav bar -->
     <nav class="navbar">
         <div class="container">
@@ -40,14 +48,14 @@
                 <!-- nav link -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="" class="nav-link"><span class="
+                        <a href="" class="nav-link i18nelement" data-i18n="navbar.home"><span class="
                             font-bold2">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">About Us</a>
+                        <a href="" class="nav-link i18nelement" data-i18n="navbar.aboutus">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Rooms</a>
+                        <a href="" class="nav-link i18nelement" data-i18n="navbar.rooms">Rooms</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Services</a>
@@ -747,6 +755,7 @@
 
     <!-- AOS Script fkf -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/multilang_loader.js"></script>
     <script>
         AOS.init({ duration: 750 });
     </script>
