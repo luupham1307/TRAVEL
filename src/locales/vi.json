@@ -1,5 +1,16 @@
 {
     "navbar.home": "Trang chủ",
     "navbar.aboutus": "Về chúng tôi",
-    "navbar.rooms": "Phòng"
+    "navbar.rooms": "Phòng",
+    "navbar.services": "Dịch vụ",
+    "navbar.contact": "Liên hệ",
+    "navbar.signIn": "Đăng ký",
+
+    "headertext.h1": "Đó là một thế giới rộng lớn ngoài kia, hãy khám phá",
+    "headertext.p": "Luôn làm cho khách hàng của chúng tôi hài lòng bằng cách cung cấp càng nhiều lựa chọn càng tốt.",
+    "header.location": "Vị trí",
+    "header.date": "Ngày",
+    "header.time": "18 Tháng Ba 2022",
+    "header.search": "Tìm kiếm"
+
 }

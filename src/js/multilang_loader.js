@@ -8,7 +8,6 @@ function updateContent() {
 }
 
 async function i18Loader() {
-    console.log('init')
     const langs = ["vi", "en"];
     const jsons = await Promise.all(
         langs.map((l) => fetch("locales/" + l + ".json").then((r) => r.json()))

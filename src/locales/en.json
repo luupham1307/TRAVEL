@@ -1,5 +1,16 @@
 {
     "navbar.home": "Home",
     "navbar.aboutus": "About us",
-    "navbar.rooms": "Rooms"
+    "navbar.rooms": "Rooms",
+    "navbar.services": "Services",
+    "navbar.contact": "Contact",
+    "navbar.signIn": "Sign Up",
+
+    "headertext.h1": "It’s a Big World Out There, Go Explore",
+    "headertext.p": "Always make our customer happy by providing as many choises as possible.",
+    "header.location": "Location",
+    "header.date": "Date",
+    "header.time": "18 March 2022",
+    "header.search": "Search"
+
 }
